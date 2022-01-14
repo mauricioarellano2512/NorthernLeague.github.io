@@ -1,0 +1,30 @@
+    #titulo {
+         color: black;
+         text-align: left;
+         font-family: Verdana;
+         font-size: 60px;          
+         }
+    #subtitulo {
+         text-align: center;
+         font-family: Verdana;
+         font-size: 40px;
+         background-color: white;
+         Color: black ;
+         }
+    #eventos {
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-size: 20px;
+         padding-left: 40px;
+    }
+    #cursiva {
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-size: 20px;
+         font-style: oblique;
+         padding-left: 250px;
+    }
+    li {
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-size: 20px;
+         display: inline;
+         padding-left: 250px;
+    }

@@ -1,0 +1,107 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="estilos\nysl1.css">
+</head>
+<body>
+    <h1 id="titulo">Formulario de Inscripción</h1>
+    <form action="show_data.html" method="get">
+    <div>
+        <!-- primer bloque del formulario -->
+        <label for="fname">Nombre del jugador:</label>
+        <input type="text" id="fname" name="fname">
+        <label for="lname">A.Paterno:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="adress">Dirección:</label>
+        <input type="text" id="adress" name="adress" size="100"><br><br>
+        <label for="city">Ciudad:</label>
+        <input type="text" id="city" name="city">
+        <label for="cpostal">Cod.postal:</label>
+        <input type="text" id="cpostal" name="cpostal"><br><br>
+        <label for="bornd">F.nacimiento:</label>
+        <input type="date" id="bornd" name="bornd">
+        <label >Género:</label>
+        <label for="mujer">Mujer</label>
+        <input type="radio" id="mujer" name="tipo_gen" value="mujer">
+        <label for="hombre">Hombre</label>
+        <input type="radio" id="hombre" name="tipo_gen" value="hombre"><br><br>
+        <label >Grado:</label>
+        <input type="checkbox" id="pregrado" name="grado" value="pregrado">
+        <label >Preescolar</label> 
+        <input type="checkbox" id="1grado" name="grado" value="1grado">
+        <label >1°</label>
+        <input type="checkbox" id="2grado" name="grado" value="2grado">
+        <label >2°</label>
+        <input type="checkbox" id="3grado" name="grado" value="3grado">
+        <label >3°</label>
+        <input type="checkbox" id="4grado" name="grado" value="4grado">
+        <label >4°</label>
+        <input type="checkbox" id="5grado" name="grado" value="5grado">
+        <label >5°</label>
+        <!-- consulta por la escuela mas cercana-->
+        <h3>De qué escuela vives más cerca</h3>
+        <h4>Escuela más cercana</h4>
+        <input type="checkbox" id="AJ Katzenmaier" name="escuela" value="AJ Katzenmaier">
+        <label >AJ Katzenmaier</label>
+        <input type="checkbox" id="Marjorie P Hart" name="escuela" value="Marjorie P Hart">
+        <label >Marjorie P Jart</label><br><br>
+        <input type="checkbox" id="Greenbay" name="escuela" value="Greenbay">
+        <label >Greenbay</label>
+        <input type="checkbox" id="North Elementary" name="escuela" value="North Elementary">
+        <label >North Elementary</label><br><br>
+        <input type="checkbox" id="Howard A Yeager" name="escuela" value="Howard A Yeager">
+        <label >Howard A Yeager</label>
+        <input type="checkbox" id="South Elementary" name="escuela" value="South Elementary">
+        <label >South Elementary</label>
+        <!-- consulta por la posicion en el juego-->
+        <h4>¿Qué posición(es) juegas normalmente? (marque todas las que correspondan)</h4>
+        <input type="checkbox" id="delantero" name="posicion" value="delantero">
+        <label >Delantero</label>
+        <input type="checkbox" id="mediocampo" name="posicion" value="mediocampo">
+        <label >Mediocampo</label><br><br>
+        <input type="checkbox" id="portero" name="posicion" value="portero">
+        <label >Portero</label>
+        <input type="checkbox" id="defensa" name="posicion" value="defensa">
+        <label >Defensa</label><br><br>
+        <!-- pregunta por la talla del uniforme-->
+        <h4>Tamaño uniforme</h4>
+        <input type="radio" id="ninop" name="tam_uniforme" value="ninop">
+        <label for="ninop">Niño P</label>
+        <input type="radio" id="mediano" name="tam_uniforme" value="mediano">
+        <label for="mediano">Mediano</label><br><br>
+        <input type="radio" id="ninom" name="tam_uniforme" value="ninom">
+        <label for="ninom">Niño M</label>
+        <input type="radio" id="grande" name="tam_uniforme" value="grande">
+        <label for="grande">Grande</label><br><br>
+        <input type="radio" id="ninog" name="tam_uniforme" value="ninog">
+        <label for="ninog">Niño G</label>
+        <input type="radio" id="extrag" name="tam_uniforme" value="extrag">
+        <label for="extrag">Extragrande</label><br><br>
+        <input type="radio" id="pequeno" name="tam_uniforme" value="pequeno">
+        <label for="extrag">Pequeno</label><br><br>
+        <!-- solicita firma de aceptación-->
+        <h4>Permiso para jugar</h4>
+        <p>Yo, el padre o tutor del solicitante de registro menor, estoy de acuerdo en que el solicitante de registro y yo acataremos todas las reglas de la Northside Youth Soccer League (NYSL). Al reconocer la posibilidad de lesiones físicas asociadas al fútbol y en consideración a la"Liga" que acepta al solicitante de registro para sus programas y actividades de fútbol, Por la presente libero y descargo a NYSL, sus empleados y personal asociado y voluntarios, incluyendo las instalaciones utilizadas para prácticas y juegos, contra cualquier reclamo por o en nombre del solicitante de registro como resultado de la participación del solicitante del programa a o en el transporte desde o hacia las actividades patrocinadas por NYSL.
+            Al firmar a continuación, acuerdo y autorizo lo anterior. Además, al firmar a continuación, reconozco que he leído la política de cancelación y acepto sus términos.</p>
+        <p> <label for="ntutor">Firma Padre/Tutor:</label>
+            <input type="text" id="ntutor" name="ntutor" size=50>
+            <label for="bornd">Fecha:</label>
+            <input type="date" id="fechaform" name="fechaform">
+        </p>
+        <br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Restablecer"> <br><br>
+        </div>
+        <div id="eventos">
+            <a href= "index.html"> Home | </a>
+            <a href= "about.html" > About NYSL  |</a> 
+            <a href= "contact.html"> Contact   |</a>     
+            <a href= "rules.html"> Rules and Policies   | </a>  
+            <a href= "game.html"> Schedule </a> 
+        </div>
+    </form>  
+</body>
+</html>

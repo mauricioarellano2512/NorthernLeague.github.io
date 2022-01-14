@@ -1,0 +1,44 @@
+
+    #titulo {
+         /*color: black; */
+         text-align: center;
+         font-family: Verdana;
+         font-size: 60px;
+         height: 250px;
+         background-image: url(design1_image1.jpg);
+         background-size: cover;
+         background-repeat: no-repeat;
+         }
+    #subtitulo {
+         text-align: center;
+         font-family: Verdana;
+         font-size: 40px;
+         background-color: black;
+         Color: white ;
+         }
+    img {
+        /* float: right; */
+        /* padding-bottom: 0px; */
+         padding-left: 40px;
+    }
+    #eventos {
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-size: 20px;
+         padding-left: 40px;
+    }
+    #cursiva {
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-size: 20px;
+         font-style: oblique;
+         padding-left: 350px;
+    }
+    div {
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-size: small;
+         padding-left: 20%;
+         padding-right: 20%;
+    }
+    table {
+         width: 100%;
+         border-spacing: 30px;
+    }
